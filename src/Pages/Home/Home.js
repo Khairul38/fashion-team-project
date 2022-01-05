@@ -18,7 +18,7 @@ const Home = () => {
 
     if (loading) {
         return <Box sx={{ display: 'flex', justifyContent: 'center', my: 50 }}>
-            <CircularProgress size={150} sx={{ color: '#EC9C31' }} />
+            <CircularProgress size={150} sx={{ color: '#FF6C27' }} />
         </Box>
     }
 
@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
                 {loading ?
                     <Box sx={{ display: 'flex', justifyContent: 'center', my: 8 }}>
-                        <CircularProgress sx={{ color: '#EC9C31' }} />
+                        <CircularProgress sx={{ color: '#FF6C27' }} />
                     </Box>
                     : <div className="container">
                         <Row xs={1} md={2} lg={3} className="g-5 mb-5 p-4">
@@ -44,46 +44,6 @@ const Home = () => {
                     </div>}
             </div>
             <FutureWrapper></FutureWrapper>
-            <div className="my-5">
-                <Carousel variant="dark">
-                    <Carousel.Item interval={2000}>
-                        <img
-                            className="d-block w-100"
-                            src="https://cdn.shopify.com/s/files/1/1215/2782/files/leo_oobliss_slide1-h1.jpg"
-                            alt="First slide"
-                        />
-                        <Carousel.Caption className="fw-bold">
-                            <h1>SEE THE WORLD
-                                DIFFERENTLY</h1>
-                            <p></p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item interval={2000}>
-                        <img
-                            className="d-block w-100"
-                            src="https://cdn.shopify.com/s/files/1/1215/2782/files/leo_oobliss_slide3-h1.jpg"
-                            alt="Second slide"
-                        />
-                        <Carousel.Caption className="fw-bold">
-                            <h1>SEE THE WORLD
-                                DIFFERENTLY</h1>
-                            <p></p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item interval={2000}>
-                        <img
-                            className="d-block w-100"
-                            src="https://cdn.shopify.com/s/files/1/1215/2782/files/leo_oobliss_slide2-h1.jpg"
-                            alt="Third slide"
-                        />
-                        <Carousel.Caption className="fw-bold">
-                            <h1>SEE THE WORLD
-                                DIFFERENTLY</h1>
-                            <p></p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </div>
             <div className="container">
                 <div data-aos="fade-up" className="my-5 text-center">
                     <h1 className="fw-bold">CUSTOMER <span className="text-color">REVIEWS</span></h1>

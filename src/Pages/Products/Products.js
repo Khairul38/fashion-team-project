@@ -12,13 +12,13 @@ const Products = () => {
     return (
         <div>
             <Header></Header>
-            <div className="banner-product banner-ps mb-5 text-center text-white">
+            <div className="banner-product banner-ps mb-5 text-center text-dark">
                 <h1>MOST POPULAR <span className="text-color fw-bold">PRODUCTS</span></h1>
                 <h5>SELECT THE BEST PRODUCT FOR YOU</h5>
             </div>
             {loading ?
                 <Box sx={{ display: 'flex', justifyContent: 'center', my: 8 }}>
-                    <CircularProgress sx={{ color: '#EC9C31' }} />
+                    <CircularProgress sx={{ color: '#FF6C27' }} />
                 </Box>
                 :
                 <div className="container">

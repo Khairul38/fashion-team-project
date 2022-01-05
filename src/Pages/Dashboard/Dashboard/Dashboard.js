@@ -54,7 +54,7 @@ function Dashboard(props) {
             <Divider />
             <Toolbar />
             <List>
-                <Link style={{ textDecoration: 'none', color: '#EC9C31' }} to="/">
+                <Link style={{ textDecoration: 'none', color: '#FF6C27' }} to="/">
                     <ListItem button>
                         <ListItemIcon sx={{ color: 'black' }}>
                             <HomeIcon />
@@ -64,7 +64,7 @@ function Dashboard(props) {
                         </ListItemText>
                     </ListItem>
                 </Link>
-                <Link style={{ textDecoration: 'none', color: '#EC9C31' }} to="/dashboard">
+                <Link style={{ textDecoration: 'none', color: '#FF6C27' }} to="/dashboard">
                     <ListItem button>
                         <ListItemIcon sx={{ color: 'black' }}>
                             <DashboardIcon />
@@ -74,7 +74,7 @@ function Dashboard(props) {
                         </ListItemText>
                     </ListItem>
                 </Link>
-                <Link style={{ textDecoration: 'none', color: '#EC9C31' }} to="/products">
+                <Link style={{ textDecoration: 'none', color: '#FF6C27' }} to="/products">
                     <ListItem button>
                         <ListItemIcon sx={{ color: 'black' }}>
                             <AddShoppingCartIcon />
@@ -85,7 +85,7 @@ function Dashboard(props) {
                     </ListItem>
                 </Link>
                 {!admin ? <Box>
-                    <Link style={{ textDecoration: 'none', color: '#EC9C31' }} to={`/dashboard/myOrders`}>
+                    <Link style={{ textDecoration: 'none', color: '#FF6C27' }} to={`/dashboard/myOrders`}>
                         <ListItem button>
                             <ListItemIcon sx={{ color: 'black' }}>
                                 <ShoppingCartIcon />
@@ -95,7 +95,7 @@ function Dashboard(props) {
                             </ListItemText>
                         </ListItem>
                     </Link>
-                    <Link style={{ textDecoration: 'none', color: '#EC9C31' }} to={`/dashboard/pay`}>
+                    <Link style={{ textDecoration: 'none', color: '#FF6C27' }} to={`/dashboard/pay`}>
                         <ListItem button>
                             <ListItemIcon sx={{ color: 'black' }}>
                                 <PaymentsIcon />
@@ -105,7 +105,7 @@ function Dashboard(props) {
                             </ListItemText>
                         </ListItem>
                     </Link>
-                    <Link style={{ textDecoration: 'none', color: '#EC9C31' }} to={`/dashboard/review`}>
+                    <Link style={{ textDecoration: 'none', color: '#FF6C27' }} to={`/dashboard/review`}>
                         <ListItem button>
                             <ListItemIcon sx={{ color: 'black' }}>
                                 <ReviewsIcon />
@@ -118,7 +118,7 @@ function Dashboard(props) {
                 </Box>
                     :
                     <Box>
-                        <Link style={{ textDecoration: 'none', color: '#EC9C31' }} to={`/dashboard/manageAllOrders`}>
+                        <Link style={{ textDecoration: 'none', color: '#FF6C27' }} to={`/dashboard/manageAllOrders`}>
                             <ListItem button>
                                 <ListItemIcon sx={{ color: 'black' }}>
                                     <SettingsApplicationsIcon />
@@ -128,7 +128,7 @@ function Dashboard(props) {
                                 </ListItemText>
                             </ListItem>
                         </Link>
-                        <Link style={{ textDecoration: 'none', color: '#EC9C31' }} to={`/dashboard/manageProducts`}>
+                        <Link style={{ textDecoration: 'none', color: '#FF6C27' }} to={`/dashboard/manageProducts`}>
                             <ListItem button>
                                 <ListItemIcon sx={{ color: 'black' }}>
                                     <SettingsIcon />
@@ -138,7 +138,7 @@ function Dashboard(props) {
                                 </ListItemText>
                             </ListItem>
                         </Link>
-                        <Link style={{ textDecoration: 'none', color: '#EC9C31' }} to={`/dashboard/addProduct`}>
+                        <Link style={{ textDecoration: 'none', color: '#FF6C27' }} to={`/dashboard/addProduct`}>
                             <ListItem button>
                                 <ListItemIcon sx={{ color: 'black' }}>
                                     <AddCircleIcon />
@@ -148,7 +148,7 @@ function Dashboard(props) {
                                 </ListItemText>
                             </ListItem>
                         </Link>
-                        <Link style={{ textDecoration: 'none', color: '#EC9C31' }} to={`/dashboard/makeAdmin`}>
+                        <Link style={{ textDecoration: 'none', color: '#FF6C27' }} to={`/dashboard/makeAdmin`}>
                             <ListItem button>
                                 <ListItemIcon sx={{ color: 'black' }}>
                                     <AdminPanelSettingsIcon />
@@ -190,7 +190,7 @@ function Dashboard(props) {
                 position="fixed"
                 sx={{
                     width: { sm: `calc(100% - ${drawerWidth}px)` },
-                    ml: { sm: `${drawerWidth}px` }, backgroundColor: '#FBEBD6', color: 'black'
+                    ml: { sm: `${drawerWidth}px` }, backgroundColor: '#ffccbc', color: 'black'
                 }}
             >
                 <Toolbar>

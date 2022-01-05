@@ -3,7 +3,7 @@ import { getAuth, signInWithPopup, GoogleAuthProvider, createUserWithEmailAndPas
 import initializeFirebase from '../../Firebase/Firebase.init';
 import { Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { orange } from '@mui/material/colors';
+import { deepOrange } from '@mui/material/colors';
 
 initializeFirebase();
 
@@ -137,10 +137,10 @@ const useFirebase = () => {
 
     // Customized Button
     const ColorButton = styled(Button)(({ theme }) => ({
-        color: theme.palette.getContrastText(orange[200]),
-        backgroundColor: orange[200],
+        color: theme.palette.getContrastText(deepOrange[300]),
+        backgroundColor: deepOrange[300],
         '&:hover': {
-            backgroundColor: orange[300],
+            backgroundColor: deepOrange[400],
         },
     }));
 

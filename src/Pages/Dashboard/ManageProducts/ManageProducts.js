@@ -34,7 +34,7 @@ const ManageProducts = () => {
             </div>
             {loading ?
                 <Box sx={{ display: 'flex', justifyContent: 'center', my: 8 }}>
-                    <CircularProgress sx={{ color: '#EC9C31' }} />
+                    <CircularProgress sx={{ color: '#FF6C27' }} />
                 </Box>
                 :
                 <div className="container">
