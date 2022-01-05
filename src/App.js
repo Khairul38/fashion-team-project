@@ -52,9 +52,6 @@ function App() {
               <Route path={`/dashboard/myOrders`} element={<MyOrders></MyOrders>}>
 
               </Route>
-              <Route path={`/dashboard/pay/:orderId`} element={<Pay></Pay>}>
-
-              </Route>
               <Route path={`/dashboard/review`} element={<Review></Review>}>
 
               </Route>
