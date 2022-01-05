@@ -9,6 +9,7 @@ import useReviews from '../../Hooks/useReviews/useReviews';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Banner from '../Banner/Banner';
+import FutureWrapper from '../FutureWrapper/FutureWrapper';
 
 const Home = () => {
     const { products, loading } = useProducts();
@@ -24,10 +25,6 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-            {/* <div className="banner banner-size ps-5">
-                <h1 data-aos="fade-right">AVIATOR <br /> VERRES ICEBERG <br /> GLASSES</h1>
-                <h5 data-aos="fade-left">Looked up one of the more obscure latin world</h5>
-            </div> */}
             <Banner></Banner>
             <div className="container">
                 <div data-aos="fade-up" className="my-5 text-center">
@@ -46,6 +43,7 @@ const Home = () => {
                         </Row>
                     </div>}
             </div>
+            <FutureWrapper></FutureWrapper>
             <div className="my-5">
                 <Carousel variant="dark">
                     <Carousel.Item interval={2000}>
