@@ -1,12 +1,13 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./Pages/Footer/Footer";
-import Header from "./Pages/Footer/Header/Header";
+import HeaderNav from "./Pages/Header/HeaderNav";
 
 function App() {
   return (
     <Router>
-      <Header />
+      <HeaderNav />
       <Routes>
         <Route></Route>
       </Routes>
