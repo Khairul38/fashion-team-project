@@ -1,0 +1,27 @@
+.banner-review {
+    background-image: url(../../../Images/allbookingsAS.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -100px;
+}
+
+.banner-rs {
+    padding: 100px 0px;
+}
+
+.add-reviews form {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 150px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 20px;
+}
+
+.add-reviews form input, .text {
+    width: 200%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-color: #EC9C31;
+}

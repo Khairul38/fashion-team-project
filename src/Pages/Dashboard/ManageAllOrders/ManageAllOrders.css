@@ -1,0 +1,16 @@
+.banner-order {
+    background-image: url(../../../Images/allbookings.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-bs {
+    padding: 200px 0px;
+}
+
+.banner-order h1 {
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}

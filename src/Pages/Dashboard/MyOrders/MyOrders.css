@@ -1,0 +1,16 @@
+.banner-myOrder {
+    background-image: url(../../../Images/banner23.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-bs {
+    padding: 200px 0px;
+}
+
+.banner-myOrder h1 {
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}

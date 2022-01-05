@@ -12,7 +12,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="bg-dark text-light" data-aos="fade-up">
+    <div className="bg-dark text-light mt-5" data-aos="fade-up">
       <Container className="py-5 footer-text">
         <Row className="gy-5">
           <Col md={3} data-aos="fade-right">

@@ -1,0 +1,16 @@
+.banner-product {
+    background-image: url(../../Images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-ps {
+    padding: 300px 0px;
+}
+
+.banner-product h1 {
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
