@@ -8,6 +8,7 @@ import ProductItem from '../Item/ProductItem';
 import useReviews from '../../Hooks/useReviews/useReviews';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import Banner from '../Banner/Banner';
 
 const Home = () => {
     const { products, loading } = useProducts();
@@ -23,10 +24,11 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-            <div className="banner banner-size ps-5">
+            {/* <div className="banner banner-size ps-5">
                 <h1 data-aos="fade-right">AVIATOR <br /> VERRES ICEBERG <br /> GLASSES</h1>
                 <h5 data-aos="fade-left">Looked up one of the more obscure latin world</h5>
-            </div>
+            </div> */}
+            <Banner></Banner>
             <div className="container">
                 <div data-aos="fade-up" className="my-5 text-center">
                     <h1 className="fw-bold">MOST POPULAR <span className="text-color">PRODUCTS</span> </h1>

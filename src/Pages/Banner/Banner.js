@@ -1,10 +1,10 @@
 import React from 'react';
-import banner1 from '../../images/banner-slider.jpg'
-import banner2 from '../../images/banner-slider-2.jpg'
-import banner3 from '../../images/banner-slider-3.jpg'
-import sliderText from '../../images/slider-text-2.png'
-import sliderText3 from '../../images/slider-text.png'
-import sliderText2 from '../../images/slider-text-3.png'
+import banner1 from '../../Images/banner-slider.jpg'
+import banner2 from '../../Images/banner-slider-2.jpg'
+import banner3 from '../../Images/banner-slider-3.jpg'
+import sliderText from '../../Images/slider-text-2.png'
+import sliderText3 from '../../Images/slider-text.png'
+import sliderText2 from '../../Images/slider-text-3.png'
 import { Link } from 'react-router-dom';
 
 const Banner = () => {
