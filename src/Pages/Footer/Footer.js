@@ -35,10 +35,10 @@ const Footer = () => {
             <div className="text-center">
               {/* <img
                 style={{ maxWidth: "200px", marginBottom: "30px" }}
-                src=""
+                src={logo}
                 alt="logo"
               ></img> */}
-              <h1>Fashint Inc.</h1>
+              <h1>Reid</h1>
               <h3 className="my-4 text-center">Let's Get in Touch</h3>
               <p className="my-4">
                 Our distinctive buildings fill the skyline and streetscapes of
